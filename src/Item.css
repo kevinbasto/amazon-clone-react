@@ -1,0 +1,29 @@
+.item{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.item > img{
+ max-height: 200px;
+ width: 100%;
+ max-width: 200px;
+ object-fit: contain;
+}
+
+.item__data{
+    width: 100%;
+}
+
+.item__rating{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.item__data > button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
