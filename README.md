@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### `Quick note`
+
+Remember to create a firebase.js file and load the credentials inside to work with, else, it won't work and don't forget to change the axios baseURL
